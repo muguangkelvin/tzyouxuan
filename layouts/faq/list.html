@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="container page-layout">
+  <div class="list-header text-center">
+    <h1 class="page-title">❓ 梯子优选常见问题解答 (100 FAQ 痛点全解答)</h1>
+    <p class="page-desc">覆盖梯子优选、魔法上网新手教学、节点超时排查、Clash/Sing-box订阅配置、IPLC专线与BGP中继区别及防失联备用入口。</p>
+  </div>
+
+  <div class="faq-container margin-top-lg">
+    {{ range $index, $element := .Pages }}
+    <div class="faq-item-card expanded">
+      <h3 class="faq-question"><span class="q-num">Q{{ add $index 1 }}:</span> {{ .Title }}</h3>
+      <div class="faq-answer">
+        {{ .Content }}
+      </div>
+      <div class="faq-cta-bar">
+        <span>💡 首推梯子推荐：</span>
+        <a href="https://varnexa.lingdongaff.com/#/?code=JoIy7bO1" target="_blank" rel="sponsored nofollow noopener" class="btn-link">灵动云(IPLC专线)</a> | 
+        <a href="https://varnexa.twilightaff.com/#/?code=KvGly3jY" target="_blank" rel="sponsored nofollow noopener" class="btn-link">暮光网络(4K影音)</a> | 
+        <a href="https://flycat1.flycatvipaff.cc/#/?code=FOdfcRFH" target="_blank" rel="sponsored nofollow noopener" class="btn-link">飞猫云(超值年付)</a> | 
+        <a href="https://edp01.breezenetaff.com/#/?code=He4n3zxg" target="_blank" rel="sponsored nofollow noopener" class="btn-link">微风网络(全能兼容)</a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

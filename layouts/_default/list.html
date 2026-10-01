@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="container page-layout">
+  <div class="list-header text-center">
+    <h1 class="page-title">{{ .Title }}</h1>
+    <p class="page-desc">{{ .Description | default "梯子优选与高性价比网络加速文章列表指南" }}</p>
+  </div>
+
+  {{ if .Content }}
+  <div class="guide-custom-container margin-top-lg">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  <div class="article-grid margin-top-lg">
+    {{ range .Pages }}
+    <article class="article-card">
+      <div class="article-body">
+        <span class="article-cat">{{ .Params.category | default "梯子优选" }}</span>
+        <h3 class="article-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="article-excerpt">{{ .Summary | truncate 130 }}</p>
+        <div class="article-meta">
+          <span>📅 {{ .Date.Format "2006-01-02" }}</span>
+          <span>⏱️ {{ .ReadingTime }} 分钟阅读</span>
+        </div>
+        <div class="card-read-more" style="margin-top: 15px; border-top: 1px dashed #e2e8f0; padding-top: 12px; text-align: right;">
+          <a href="{{ .RelPermalink }}" class="btn-read-more" style="color: #2563eb; font-weight: bold; font-size: 14px; display: inline-flex; align-items: center; gap: 4px;">
+            👉 阅读全文 &rarr;
+          </a>
+        </div>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

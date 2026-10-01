@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="container page-layout">
+  <div class="list-header text-center" style="margin-bottom: 45px;">
+    <h1 class="page-title">🛒 2026全网梯子优选与机场服务商汇总 (28款机场测评)</h1>
+    <p class="page-desc" style="max-width: 850px; margin: 12px auto 0; color: #475569; font-size: 15px; line-height: 1.7;">本站收录并测试的所有机场服务商概览，包含详细资料、节点情况、适用场景、价格以及对应官网直接注册入口。</p>
+  </div>
+
+  <div class="services-full-list" style="margin-top: 40px; padding-top: 15px;">
+    <div class="provider-grid">
+      {{ range .Site.Data.providers }}
+      <div class="provider-card {{ if .isPrimary }}primary-card{{ end }}">
+        <div class="rank-tag">#{{ .rank }} {{ .name }}</div>
+        <div class="card-header">
+          <h3 class="provider-name">{{ .name }}</h3>
+          <span class="price-badge">{{ .priceFrom }}</span>
+        </div>
+        <p class="provider-summary">{{ .summary }}</p>
+        <ul class="provider-features">
+          <li><strong>流量参考：</strong> {{ .trafficFrom }}</li>
+          <li><strong>节点地区：</strong> {{ .regions }}</li>
+          <li><strong>支持协议：</strong> {{ .protocols }}</li>
+          <li><strong>适用场景：</strong> {{ .suitableFor }}</li>
+        </ul>
+        <div class="card-actions">
+          <a href="{{ .inviteURL }}" target="_blank" rel="sponsored nofollow noopener" class="btn btn-register">{{ .ctaText }}</a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

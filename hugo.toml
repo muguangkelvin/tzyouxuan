@@ -1,0 +1,60 @@
+baseURL = 'https://tzyouxuan.xyz/'
+locale = 'zh-CN'
+title = '梯子优选 - 2026稳定高速梯子推荐与小白魔法上网配置教程指南'
+hasCorePage = true
+enableRobotsTXT = true
+summaryLength = 120
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  brandName = '梯子优选'
+  domain = 'tzyouxuan.xyz'
+  tgChannel = 'https://t.me/+XUkYwrYRQ_c0ODA1'
+  siteDescription = '面向小白新手与进阶用户的梯子优选指南，专注提供节点测速横评、主流客户端配置教程（Clash/Sing-box/v2rayN/小火箭等）、避坑防失联技巧及优质稳定专线机场优选推荐。'
+  heroKeywords = '梯子优选, 优质梯子推荐, 机场优选, 稳定梯子, 高速翻墙梯子, 2026便宜好用的梯子优选推荐, 小白零基础梯子配置, 手机电脑翻墙加速器哪个好, 4K不卡顿的魔法上网机场, Shadowrocket与Clash节点导入教程, 晚高峰不降速的IPLC梯子'
+  footerKeywords = '梯子优选网 官方版权所有 · 全网节点延迟稳定性实测 · 科学上网常见问题答疑与防失联备用入口 · 魔法上网机场评测横评'
+
+[params.author]
+  name = '梯子优选编辑部'
+  bio = '资深网络隐私与加速评测团队，专注为小白和进阶用户提供权威、实测、稳定靠谱的梯子优选推荐与软件配置教程。'
+
+[[menu.main]]
+  name = '首页'
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  name = '梯子优选与精选推荐'
+  url = '/categories/recommend/'
+  weight = 2
+
+[[menu.main]]
+  name = '小白教程'
+  url = '/categories/tutorial/'
+  weight = 3
+
+[[menu.main]]
+  name = '自营与优选专区'
+  url = '/services/'
+  weight = 4
+
+[[menu.main]]
+  name = '常见问题'
+  url = '/faq/'
+  weight = 5
+
+[[menu.main]]
+  name = '机场测评'
+  url = '/reviews/'
+  weight = 6

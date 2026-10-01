@@ -1,0 +1,90 @@
+{
+  "profileVersion": "2026.1.0",
+  "siteTopic": "梯子优选、高性价比网络加速与机场推荐指南",
+  "primaryKeywords": [
+    "梯子优选",
+    "优质梯子推荐",
+    "机场优选",
+    "稳定梯子",
+    "高速翻墙梯子"
+  ],
+  "secondaryKeywords": [
+    "魔法上网",
+    "魔法机场",
+    "科学上网工具",
+    "翻墙机场推荐",
+    "节点订阅购买",
+    "IPLC专线梯子",
+    "便宜好用梯子",
+    "梯子软件下载"
+  ],
+  "longTailKeywords": [
+    "小白零基础梯子配置",
+    "2026便宜好用的梯子优选推荐",
+    "手机电脑翻墙加速器哪个好",
+    "4K不卡顿的魔法上网机场",
+    "Shadowrocket与Clash节点导入教程",
+    "晚高峰不降速的IPLC梯子"
+  ],
+  "heroKeywords": [
+    "梯子优选",
+    "优质梯子推荐",
+    "机场优选",
+    "稳定梯子",
+    "高速翻墙梯子",
+    "魔法上网",
+    "IPLC专线梯子",
+    "Clash配置教程",
+    "小火箭节点导入",
+    "2026便宜好用的梯子优选推荐"
+  ],
+  "footerKeywords": [
+    "梯子优选网 (tzyouxuan.xyz) 官方版权所有",
+    "全网节点延迟稳定性实测",
+    "科学上网常见问题答疑与防失联备用入口",
+    "魔法上网机场评测横评"
+  ],
+  "tgChannel": "https://t.me/+XUkYwrYRQ_c0ODA1",
+  "navigationItems": [
+    {
+      "label": "首页",
+      "url": "/",
+      "type": "home"
+    },
+    {
+      "label": "梯子优选与精选推荐",
+      "url": "/categories/recommend/",
+      "type": "category",
+      "primaryKeyword": "梯子优选",
+      "articleCount": 8
+    },
+    {
+      "label": "小白教程",
+      "url": "/categories/tutorial/",
+      "type": "category",
+      "primaryKeyword": "小白零基础梯子配置",
+      "articleCount": 10
+    },
+    {
+      "label": "自营与优选专区",
+      "url": "/services/",
+      "type": "services",
+      "primaryKeyword": "稳定梯子优选",
+      "articleCount": 3
+    },
+    {
+      "label": "常见问题",
+      "url": "/faq/",
+      "type": "faq",
+      "primaryKeyword": "梯子常见问题",
+      "faqCount": 100
+    },
+    {
+      "label": "机场测评",
+      "url": "/reviews/",
+      "type": "reviews",
+      "primaryKeyword": "机场测评横评",
+      "articleCount": 28
+    }
+  ]
+}

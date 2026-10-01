@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="auto" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); background: #ffffff;">
+  <rect width="800" height="480" fill="#f8fafc" rx="12"/>
+  
+  <!-- Card Header -->
+  <path d="M 0 12 C 0 5.37 5.37 0 12 0 L 788 0 C 794.63 0 800 5.37 800 12 L 800 44 L 0 44 Z" fill="#0284c7"/>
+  <text x="400" y="27" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">📱 Shadowrocket 小火箭 (iOS / iPadOS) 配置流程示意图</text>
+
+  <!-- Left: Phone UI Mockup -->
+  <rect x="40" y="60" width="260" height="400" rx="24" fill="#000000" stroke="#334155" stroke-width="4"/>
+  <rect x="48" y="68" width="244" height="384" rx="18" fill="#f1f5f9"/>
+  
+  <!-- iOS Notch / Island -->
+  <rect x="120" y="74" width="100" height="14" rx="7" fill="#000000"/>
+  <circle cx="210" cy="81" r="3" fill="#1e293b"/>
+  <!-- Status bar VPN icon -->
+  <rect x="60" y="74" width="28" height="12" rx="3" fill="#0284c7"/>
+  <text x="74" y="83" fill="#ffffff" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" text-anchor="middle">VPN</text>
+
+  <!-- Shadowrocket App Header -->
+  <rect x="48" y="96" width="244" height="40" fill="#0284c7"/>
+  <text x="64" y="121" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Shadowrocket</text>
+  <text x="270" y="121" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">+</text>
+
+  <!-- Connection Switch Bar -->
+  <rect x="60" y="146" width="220" height="44" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="74" y="172" fill="#0f172a" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">未连接 / 已连接</text>
+  <rect x="220" y="156" width="48" height="24" rx="12" fill="#10b981"/>
+  <circle cx="256" cy="168" r="9" fill="#ffffff"/>
+
+  <!-- Global Routing -->
+  <rect x="60" y="198" width="220" height="36" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="74" y="221" fill="#64748b" font-family="system-ui, sans-serif" font-size="12">全局路由</text>
+  <text x="250" y="221" fill="#0284c7" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">配置 (Config) ✓</text>
+
+  <!-- Node Section -->
+  <rect x="60" y="242" width="220" height="190" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="74" y="262" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">订阅服务器列表</text>
+  
+  <rect x="68" y="272" width="204" height="32" rx="4" fill="#e0f2fe"/>
+  <text x="78" y="293" fill="#0369a1" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">✓ 🇭🇰 香港 IPLC 01 (26ms)</text>
+
+  <rect x="68" y="310" width="204" height="32" rx="4" fill="#f8fafc"/>
+  <text x="78" y="331" fill="#475569" font-family="system-ui, sans-serif" font-size="11">🇸🇬 新加坡 01 (38ms)</text>
+
+  <rect x="68" y="348" width="204" height="32" rx="4" fill="#f8fafc"/>
+  <text x="78" y="369" fill="#475569" font-family="system-ui, sans-serif" font-size="11">🇺🇸 美国 4K 专线 (120ms)</text>
+
+  <!-- Right: 3 Step Guide Cards -->
+  <!-- Step 1 Card -->
+  <rect x="330" y="60" width="430" height="120" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <circle cx="360" cy="88" r="14" fill="#0284c7"/>
+  <text x="360" y="93" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">1</text>
+  <text x="388" y="93" fill="#0f172a" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">获取与下载客户端</text>
+  <text x="350" y="125" fill="#475569" font-family="system-ui, sans-serif" font-size="13">使用非国区 Apple ID（如美区）登录 App Store 搜索并下载。</text>
+  <text x="350" y="148" fill="#64748b" font-family="system-ui, sans-serif" font-size="12" font-style="italic">注意认准开发者：Shadow Launch Technology Limited</text>
+
+  <!-- Step 2 Card -->
+  <rect x="330" y="195" width="430" height="130" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <circle cx="360" cy="223" r="14" fill="#0284c7"/>
+  <text x="360" y="228" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">2</text>
+  <text x="388" y="228" fill="#0f172a" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">添加订阅 (Subscribe)</text>
+  <text x="350" y="258" fill="#475569" font-family="system-ui, sans-serif" font-size="13">点击右上角「+」→ 类型选择 Subscribe → 粘贴 URL。</text>
+  <text x="350" y="280" fill="#475569" font-family="system-ui, sans-serif" font-size="13">点击右上角完成 (Done) 保存，首页自动生成节点列表。</text>
+
+  <!-- Step 3 Card -->
+  <rect x="330" y="340" width="430" height="120" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <circle cx="360" cy="368" r="14" fill="#10b981"/>
+  <text x="360" y="373" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">3</text>
+  <text x="388" y="373" fill="#0f172a" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">启动连接与 VPN 授权</text>
+  <text x="350" y="403" fill="#475569" font-family="system-ui, sans-serif" font-size="13">选定低延迟节点，开启顶部 [未连接] 按钮。</text>
+  <text x="350" y="425" fill="#475569" font-family="system-ui, sans-serif" font-size="13">系统弹窗提示“添加 VPN 配置”时点击“允许”并解锁。</text>
+</svg>

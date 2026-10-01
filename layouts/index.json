@@ -1,0 +1,18 @@
+[
+  {{- $first := true -}}
+  {{- range .Site.AllPages -}}
+    {{- if and .Title (not .Draft) -}}
+      {{- if not $first }},{{ end -}}
+      {{- $first = false -}}
+      {
+        "title": {{ .Title | jsonify }},
+        "summary": {{ (.Summary | default .Description) | plainify | jsonify }},
+        "permalink": {{ .RelPermalink | jsonify }},
+        "category": {{ (.Params.category | default "梯子优选") | jsonify }},
+        "tags": {{ (.Params.tags | default (slice)) | jsonify }},
+        "keywords": {{ (.Params.keywords | default "") | jsonify }},
+        "type": {{ .Type | jsonify }}
+      }
+    {{- end -}}
+  {{- end -}}
+]

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="auto" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); background: #ffffff;">
+  <rect width="800" height="480" fill="#f8fafc" rx="12"/>
+  
+  <!-- Card Header -->
+  <path d="M 0 12 C 0 5.37 5.37 0 12 0 L 788 0 C 794.63 0 800 5.37 800 12 L 800 44 L 0 44 Z" fill="#7c3aed"/>
+  <text x="400" y="27" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">🤖 Sing-box / CMFA (Android 安卓端) 配置流程示意图</text>
+
+  <!-- Left Side: Android UI Mockup -->
+  <rect x="40" y="60" width="260" height="400" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="4"/>
+  <rect x="48" y="68" width="244" height="384" rx="14" fill="#09090b"/>
+
+  <!-- Android Notification Bar with Key Icon -->
+  <rect x="48" y="68" width="244" height="24" fill="#18181b"/>
+  <text x="60" y="84" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="10">10:24</text>
+  <text x="240" y="84" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11">🔑 🔑 85%</text>
+
+  <!-- App Header -->
+  <text x="64" y="118" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">Sing-box</text>
+
+  <!-- Big Connect Button Ring -->
+  <circle cx="170" cy="200" r="50" fill="none" stroke="#7c3aed" stroke-width="6"/>
+  <circle cx="170" cy="200" r="42" fill="#7c3aed"/>
+  <text x="170" y="206" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">已连接</text>
+
+  <!-- Profile Active Box -->
+  <rect x="64" y="270" width="212" height="48" rx="8" fill="#27272a"/>
+  <text x="76" y="291" fill="#e4e4e7" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">配置文件 Profile</text>
+  <text x="76" y="308" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">我的专属机场订阅 (Remote)</text>
+
+  <!-- Group / Node Select -->
+  <rect x="64" y="328" width="212" height="48" rx="8" fill="#27272a"/>
+  <text x="76" y="349" fill="#e4e4e7" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">节点组 (Groups)</text>
+  <text x="76" y="366" fill="#a855f7" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">🇭🇰 香港 01 - 22ms</text>
+
+  <!-- Bottom Navigation -->
+  <rect x="48" y="412" width="244" height="40" fill="#18181b"/>
+  <text x="85" y="436" fill="#a855f7" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">主页</text>
+  <text x="170" y="436" fill="#71717a" font-family="system-ui, sans-serif" font-size="12">配置</text>
+  <text x="240" y="436" fill="#71717a" font-family="system-ui, sans-serif" font-size="12">设置</text>
+
+  <!-- Right Side: Instructions Cards -->
+  <rect x="330" y="60" width="430" height="120" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <circle cx="360" cy="88" r="14" fill="#7c3aed"/>
+  <text x="360" y="93" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">1</text>
+  <text x="388" y="93" fill="#0f172a" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">安装客户端 (Sing-box / CMFA)</text>
+  <text x="350" y="125" fill="#475569" font-family="system-ui, sans-serif" font-size="13">Google Play 商店搜索安装，或在 GitHub Releases</text>
+  <text x="350" y="148" fill="#475569" font-family="system-ui, sans-serif" font-size="13">下载对应的 .apk 安装包文件。</text>
+
+  <rect x="330" y="195" width="430" height="130" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <circle cx="360" cy="223" r="14" fill="#7c3aed"/>
+  <text x="360" y="228" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">2</text>
+  <text x="388" y="228" fill="#0f172a" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">导入 Remote 订阅地址</text>
+  <text x="350" y="258" fill="#475569" font-family="system-ui, sans-serif" font-size="13">点击 Profiles → 右上角「+」→ 选择 Remote (远程 URL)。</text>
+  <text x="350" y="280" fill="#475569" font-family="system-ui, sans-serif" font-size="13">粘贴 Sing-box / Clash 订阅链接后保存并解析。</text>
+
+  <rect x="330" y="340" width="430" height="120" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <circle cx="360" cy="368" r="14" fill="#10b981"/>
+  <text x="360" y="373" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">3</text>
+  <text x="388" y="373" fill="#0f172a" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">启动加速与授权</text>
+  <text x="350" y="403" fill="#475569" font-family="system-ui, sans-serif" font-size="13">返回 Dashboard 选中配置，点击中心圆圈启动。</text>
+  <text x="350" y="425" fill="#475569" font-family="system-ui, sans-serif" font-size="13">允许系统的“网络连接请求 / VPN 权限”即可完成连接。</text>
+</svg>
